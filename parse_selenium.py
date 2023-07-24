@@ -451,9 +451,9 @@ def main():
     pages = 50
     filename_links = "company_links.json"
     filename_company = "company_data.json"
+    service = Service("chromedriver_mac/chromedriver")
     chrome_options = Options()
     chrome_options.add_argument("--headless")
-    service = Service("chromedriver_mac/chromedriver")
 
     сount_pages, count_company_link = scrapy_links(
         url, service, pages, filename_links
