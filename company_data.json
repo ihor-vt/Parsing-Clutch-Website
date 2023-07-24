@@ -1,0 +1,1159 @@
+{
+  "count_company": 19,
+  "company": [
+    {
+      "company_name": "Hyperlink InfoSystem",
+      "information": {
+        "website": "https://www.hyperlinkinfosystem.com/",
+        "details": [
+          "Gold Verified",
+          "$25,000+",
+          "$25 - $49 / hr",
+          "250 - 999",
+          "Founded 2011",
+          "Watch our Video",
+          "4 Languages"
+        ],
+        "social_media": [
+          "https://www.linkedin.com/company/hyperlinkinfosystem/mycompany/",
+          "https://www.facebook.com/pages/category/software-company/hyperlink-infosystem-140449209446270/",
+          "https://twitter.com/hyperlinkinfo",
+          "https://www.instagram.com/hyperlink_infosystem/?hl=en"
+        ],
+        "metrics": {
+          "Average Review Rating": "4.8",
+          "Total Reviews": "134",
+          "Most Common Project Size": "$10,000 to $49,000",
+          "Average Referral Rating": "4.8"
+        },
+        "locations": [
+          {
+            "Location Name": "Headquarters",
+            "Street Address": "Block C, 106/B Ganesh Meredian, Near Sola Bridge, Opp Gujarat High Court, S.G. Highway",
+            "Locality": "Ahmedabad",
+            "Region": "",
+            "Country": "India",
+            "Postal Code": "380060",
+            "Telephone": "&#43;91.8000.161.161"
+          }
+        ],
+        "legend": {
+          "Service Lines": [
+            {
+              "Service Line": "Mobile App Development",
+              "Percentage": "50%"
+            },
+            {
+              "Service Line": "AI Development",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "Blockchain",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "CRM Consulting and SI",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "Custom Software Development",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "Web Development",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "AI Consulting",
+              "Percentage": "0%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "company_name": "CISIN",
+      "information": {
+        "website": "https://www.cisin.com/",
+        "details": [
+          "Bronze Verified",
+          "$5,000+",
+          "< $25 / hr",
+          "1,000 - 9,999",
+          "Founded 2003",
+          "Watch our Video",
+          "1 Language",
+          "17 Timezones"
+        ],
+        "social_media": [
+          "https://www.linkedin.com/company/cyber-infrastructure",
+          "https://www.facebook.com/Cyber-Infrastructure-Pvt-Ltd-158773330821426/",
+          "https://twitter.com/cisin",
+          "https://www.instagram.com/cisin_com/?hl=en"
+        ],
+        "metrics": {
+          "Average Review Rating": "4.9",
+          "Total Reviews": "29",
+          "Most Common Project Size": "Less than $10,000",
+          "Average Referral Rating": "4.9"
+        },
+        "locations": [
+          {
+            "Location Name": "Headquarters",
+            "Street Address": "2880 Zanker Road",
+            "Locality": "San Jose",
+            "Region": "CA",
+            "Country": "United States",
+            "Postal Code": "95134",
+            "Telephone": "+1408-442-8018"
+          }
+        ],
+        "legend": {
+          "Service Lines": [
+            {
+              "Service Line": "AI Development",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "Cloud Consulting & SI",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "Custom Software Development",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "E-Commerce Development",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "IT Managed Services",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "IT Staff Augmentation",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "IT Strategy Consulting",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "Pay Per Click",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "Search Engine Optimization",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "Web Development",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "AI Consulting",
+              "Percentage": "0%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "company_name": "Geniusee",
+      "information": {
+        "website": "https://geniusee.com/",
+        "details": [
+          "Bronze Verified",
+          "$50,000+",
+          "$50 - $99 / hr",
+          "50 - 249",
+          "Founded 2017",
+          "1 Language",
+          "5 Timezones"
+        ],
+        "social_media": [
+          "https://www.linkedin.com/company/geniusee",
+          "https://www.facebook.com/geniuseesoftware/",
+          "https://twitter.com/geniuseesw",
+          "https://www.instagram.com/geniusee_software/"
+        ],
+        "metrics": {
+          "Average Review Rating": "5.0",
+          "Total Reviews": "49",
+          "Most Common Project Size": "$50,000 to $199,999",
+          "Average Referral Rating": "5.0"
+        },
+        "locations": [
+          {
+            "Location Name": "Headquarters",
+            "Street Address": "Adama Branickiego 21/U3",
+            "Locality": "Warszawa",
+            "Region": "",
+            "Country": "Poland",
+            "Postal Code": "02-972",
+            "Telephone": "&#43;41794762534"
+          }
+        ],
+        "legend": {
+          "Service Lines": [
+            {
+              "Service Line": "Web Development",
+              "Percentage": "40%"
+            },
+            {
+              "Service Line": "Custom Software Development",
+              "Percentage": "30%"
+            },
+            {
+              "Service Line": "AI Development",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "Cloud Consulting & SI",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "Mobile App Development",
+              "Percentage": "10%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "company_name": "Synergo Group",
+      "information": {
+        "website": "https://www.synergogroup.net/",
+        "details": [
+          "Gold Verified",
+          "$5,000+",
+          "$50 - $99 / hr",
+          "10 - 49",
+          "Founded 2005"
+        ],
+        "social_media": [
+          "https://www.linkedin.com/in/cristiberes/",
+          "https://twitter.com/SynergoGroup"
+        ],
+        "metrics": {
+          "Average Review Rating": "4.8",
+          "Total Reviews": "54",
+          "Most Common Project Size": "$10,000 to $49,000",
+          "Average Referral Rating": "4.9"
+        },
+        "locations": [
+          {
+            "Location Name": "Headquarters",
+            "Street Address": "130 King Street West, Suite 1800",
+            "Locality": "Toronto",
+            "Region": "",
+            "Country": "Canada",
+            "Postal Code": "M5X 1E3",
+            "Telephone": "&#43;1 (647) 560-4412"
+          }
+        ],
+        "legend": {
+          "Service Lines": [
+            {
+              "Service Line": "Cloud Consulting & SI",
+              "Percentage": "15%"
+            },
+            {
+              "Service Line": "Custom Software Development",
+              "Percentage": "15%"
+            },
+            {
+              "Service Line": "BI & Big Data Consulting & SI",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "Blockchain",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "Enterprise App Modernization",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "IT Staff Augmentation",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "Mobile App Development",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "Robotics Process Automation",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "Web Development",
+              "Percentage": "10%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "company_name": "SugarShot",
+      "information": {
+        "website": "http://www.sugarshot.io/",
+        "details": [
+          "Gold Verified",
+          "$5,000+",
+          "$150 - $199 / hr",
+          "10 - 49",
+          "Founded 2000",
+          "Watch our Video"
+        ],
+        "social_media": [
+          "https://www.linkedin.com/company/sugarshot/"
+        ],
+        "metrics": {
+          "Average Review Rating": "4.8",
+          "Total Reviews": "18",
+          "Most Common Project Size": "$50,000 to $199,999",
+          "Average Referral Rating": "4.8"
+        },
+        "locations": [
+          {
+            "Location Name": "Headquarters",
+            "Street Address": "219 Avenue I, Suite 102",
+            "Locality": "Redondo Beach",
+            "Region": "CA",
+            "Country": "United States",
+            "Postal Code": "90277",
+            "Telephone": "310-641-3274"
+          }
+        ],
+        "legend": {
+          "Service Lines": [
+            {
+              "Service Line": "IT Managed Services",
+              "Percentage": "40%"
+            },
+            {
+              "Service Line": "Cybersecurity",
+              "Percentage": "30%"
+            },
+            {
+              "Service Line": "IT Strategy Consulting",
+              "Percentage": "30%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "company_name": "Varsity Technologies",
+      "information": {
+        "website": "https://www.varsitytech.com/",
+        "details": [
+          "Gold Verified",
+          "$1,000+",
+          "$150 - $199 / hr",
+          "10 - 49",
+          "Founded 1997",
+          "1 Language",
+          "2 Timezones"
+        ],
+        "social_media": [
+          "https://www.linkedin.com/company/varsity-technologies",
+          "https://www.facebook.com/Varsity-Technologies-189688292203/",
+          "https://twitter.com/varsitytech",
+          "https://www.instagram.com/varsity_it/"
+        ],
+        "metrics": {
+          "Average Review Rating": "4.7",
+          "Total Reviews": "12",
+          "Most Common Project Size": "$50,000 to $199,999",
+          "Average Referral Rating": "4.8"
+        },
+        "locations": [
+          {
+            "Location Name": "Headquarters",
+            "Street Address": "1390 Market Street, St 908",
+            "Locality": "San Francisco",
+            "Region": "CA",
+            "Country": "United States",
+            "Postal Code": "94102",
+            "Telephone": "877-886-0557"
+          }
+        ],
+        "legend": {
+          "Service Lines": [
+            {
+              "Service Line": "IT Managed Services",
+              "Percentage": "55%"
+            },
+            {
+              "Service Line": "Cybersecurity",
+              "Percentage": "30%"
+            },
+            {
+              "Service Line": "Cloud Consulting & SI",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "Web Development",
+              "Percentage": "5%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "company_name": "Imagis",
+      "information": {
+        "website": "https://imagisinnovations.com/",
+        "details": [
+          "Bronze Verified",
+          "$1,000+",
+          "$150 - $199 / hr",
+          "10 - 49",
+          "Founded 2016"
+        ],
+        "social_media": [
+          "https://www.linkedin.com/company/imagis-innovations/"
+        ],
+        "metrics": {
+          "Average Review Rating": "4.7",
+          "Total Reviews": "9",
+          "Most Common Project Size": "$200,000 to $999,999",
+          "Average Referral Rating": "4.8"
+        },
+        "locations": [
+          {
+            "Location Name": "Headquarters",
+            "Street Address": "1460 Broadway",
+            "Locality": "New York",
+            "Region": "NY",
+            "Country": "United States",
+            "Postal Code": "10036",
+            "Telephone": "866-462-4474"
+          }
+        ],
+        "legend": {
+          "Service Lines": [
+            {
+              "Service Line": "IT Managed Services",
+              "Percentage": "50%"
+            },
+            {
+              "Service Line": "Cloud Consulting & SI",
+              "Percentage": "20%"
+            },
+            {
+              "Service Line": "Cybersecurity",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "IT Strategy Consulting",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "Unified Communications Consulting & SI",
+              "Percentage": "10%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "company_name": "Objective Group Inc - OGI",
+      "information": {
+        "website": "https://objectivegroup.com/",
+        "details": [
+          "Silver Verified",
+          "$100,000+",
+          "$50 - $99 / hr",
+          "250 - 999",
+          "Founded 1995",
+          "2 Languages",
+          "7 Timezones"
+        ],
+        "social_media": [
+          "https://www.linkedin.com/company/objectivebr/",
+          "https://www.facebook.com/objectivebr",
+          "https://www.instagram.com/objectivebr/?hl=en"
+        ],
+        "metrics": {
+          "Average Review Rating": "4.8",
+          "Total Reviews": "9",
+          "Most Common Project Size": "$1,000,000 to $9,999,999",
+          "Average Referral Rating": "4.9"
+        },
+        "locations": [
+          {
+            "Location Name": "Headquarters",
+            "Street Address": "401 North Michigan Avenue, Suite 1200",
+            "Locality": "Chicago",
+            "Region": "IL",
+            "Country": "United States",
+            "Postal Code": "60611",
+            "Telephone": "+1 312 8857619"
+          }
+        ],
+        "legend": {
+          "Service Lines": [
+            {
+              "Service Line": "Custom Software Development",
+              "Percentage": "40%"
+            },
+            {
+              "Service Line": "Enterprise App Modernization",
+              "Percentage": "20%"
+            },
+            {
+              "Service Line": "IT Managed Services",
+              "Percentage": "20%"
+            },
+            {
+              "Service Line": "IT Strategy Consulting",
+              "Percentage": "15%"
+            },
+            {
+              "Service Line": "IT Staff Augmentation",
+              "Percentage": "5%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "company_name": "Instil",
+      "information": {
+        "website": "https://www.instil.co/",
+        "details": [
+          "Silver Verified",
+          "$50,000+",
+          "$100 - $149 / hr",
+          "50 - 249",
+          "Founded 2005",
+          "1 Language",
+          "3 Timezones"
+        ],
+        "social_media": [
+          "https://www.linkedin.com/company/instilhq",
+          "https://www.facebook.com/instilireland",
+          "https://twitter.com/instil",
+          "https://www.instagram.com/instilhq/"
+        ],
+        "metrics": {
+          "Average Review Rating": "4.9",
+          "Total Reviews": "7",
+          "Most Common Project Size": "$200,000 to $999,999",
+          "Average Referral Rating": "5.0"
+        },
+        "locations": [
+          {
+            "Location Name": "Headquarters",
+            "Street Address": "Linen Loft, 27-37 Adelaide Street",
+            "Locality": "Belfast",
+            "Region": "",
+            "Country": "United Kingdom",
+            "Postal Code": "BT2 8GB",
+            "Telephone": "02890278498"
+          }
+        ],
+        "legend": {
+          "Service Lines": [
+            {
+              "Service Line": "Cloud Consulting & SI",
+              "Percentage": "35%"
+            },
+            {
+              "Service Line": "Custom Software Development",
+              "Percentage": "25%"
+            },
+            {
+              "Service Line": "Enterprise App Modernization",
+              "Percentage": "20%"
+            },
+            {
+              "Service Line": "Mobile App Development",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "Product Design",
+              "Percentage": "5%"
+            },
+            {
+              "Service Line": "UX/UI Design",
+              "Percentage": "5%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "company_name": "Roonyx",
+      "information": {
+        "website": "http://roonyx.tech/",
+        "details": [
+          "Gold Verified",
+          "$10,000+",
+          "$50 - $99 / hr",
+          "50 - 249",
+          "Founded 2010",
+          "1 Language",
+          "10 Timezones"
+        ],
+        "social_media": [
+          "https://www.linkedin.com/company/roonyx/",
+          "https://www.facebook.com/roonyxtech",
+          "https://twitter.com/roonyxtech",
+          "https://www.instagram.com/roonyx_tech/"
+        ],
+        "metrics": {
+          "Average Review Rating": "4.8",
+          "Total Reviews": "40",
+          "Most Common Project Size": "$50,000 to $199,999",
+          "Average Referral Rating": "4.9"
+        },
+        "locations": [
+          {
+            "Location Name": "Headquarters",
+            "Street Address": "7901 4th St N, STE 300",
+            "Locality": "St. Petersburg",
+            "Region": "FL",
+            "Country": "United States",
+            "Postal Code": "33702",
+            "Telephone": "+1 727-292-1114"
+          }
+        ],
+        "legend": {
+          "Service Lines": [
+            {
+              "Service Line": "Blockchain",
+              "Percentage": "25%"
+            },
+            {
+              "Service Line": "Web Development",
+              "Percentage": "25%"
+            },
+            {
+              "Service Line": "Custom Software Development",
+              "Percentage": "15%"
+            },
+            {
+              "Service Line": "Mobile App Development",
+              "Percentage": "15%"
+            },
+            {
+              "Service Line": "AI Development",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "BI & Big Data Consulting & SI",
+              "Percentage": "10%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "company_name": "Binary Republik",
+      "information": {
+        "website": "http://www.binaryrepublik.com/",
+        "details": [
+          "Bronze Verified",
+          "$5,000+",
+          "Undisclosed",
+          "50 - 249",
+          "Founded 2008",
+          "1 Language",
+          "7 Timezones"
+        ],
+        "social_media": [
+          "https://www.facebook.com/BinaryRepublik/",
+          "http://twitter.com/binaryrepublik"
+        ],
+        "metrics": {
+          "Average Review Rating": "4.9",
+          "Total Reviews": "17",
+          "Most Common Project Size": "$10,000 to $49,000",
+          "Average Referral Rating": "5.0"
+        },
+        "locations": [
+          {
+            "Location Name": "Headquarters",
+            "Street Address": "202 Gala Mart",
+            "Locality": "Ahmedabad",
+            "Region": "",
+            "Country": "India",
+            "Postal Code": "380058",
+            "Telephone": "+91 2717 298100"
+          }
+        ],
+        "legend": {
+          "Service Lines": [
+            {
+              "Service Line": "ECM Consulting and SI",
+              "Percentage": "30%"
+            },
+            {
+              "Service Line": "Custom Software Development",
+              "Percentage": "25%"
+            },
+            {
+              "Service Line": "Unified Communications Consulting & SI",
+              "Percentage": "20%"
+            },
+            {
+              "Service Line": "Cloud Consulting & SI",
+              "Percentage": "15%"
+            },
+            {
+              "Service Line": "CRM Consulting and SI",
+              "Percentage": "10%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "company_name": "BlueSoft Sp. z o.o.",
+      "information": {
+        "website": "https://bluesoft.com/",
+        "details": [
+          "Silver Verified",
+          "$50,000+",
+          "$50 - $99 / hr",
+          "1,000 - 9,999",
+          "Founded 2002",
+          "2 Languages",
+          "4 Timezones"
+        ],
+        "social_media": [
+          "https://www.linkedin.com/company/bluesoft/mycompany/",
+          "https://www.facebook.com/BlueSoftPL",
+          "https://www.instagram.com/bluesoft_com/"
+        ],
+        "metrics": {
+          "Average Review Rating": "4.7",
+          "Total Reviews": "9",
+          "Most Common Project Size": "$10,000 to $49,000",
+          "Average Referral Rating": "4.8"
+        },
+        "locations": [
+          {
+            "Location Name": "Headquarters",
+            "Street Address": "Aleje Jerozolimskie 134",
+            "Locality": "Warszawa",
+            "Region": "",
+            "Country": "Poland",
+            "Postal Code": "02-305",
+            "Telephone": "&#43;48 22 37 37 000"
+          }
+        ],
+        "legend": {
+          "Service Lines": [
+            {
+              "Service Line": "Custom Software Development",
+              "Percentage": "25%"
+            },
+            {
+              "Service Line": "BI & Big Data Consulting & SI",
+              "Percentage": "20%"
+            },
+            {
+              "Service Line": "Cloud Consulting & SI",
+              "Percentage": "20%"
+            },
+            {
+              "Service Line": "IT Managed Services",
+              "Percentage": "20%"
+            },
+            {
+              "Service Line": "IT Staff Augmentation",
+              "Percentage": "15%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "company_name": "InData Labs",
+      "information": {
+        "website": "https://indatalabs.com/",
+        "details": [
+          "Silver Verified",
+          "$10,000+",
+          "$50 - $99 / hr",
+          "50 - 249",
+          "Founded 2014",
+          "3 Languages"
+        ],
+        "social_media": [
+          "https://www.linkedin.com/company/indata-labs/",
+          "https://www.facebook.com/indatalabs",
+          "https://twitter.com/indatalabs",
+          "https://www.instagram.com/indatalabs_com/"
+        ],
+        "metrics": {
+          "Average Review Rating": "5.0",
+          "Total Reviews": "16",
+          "Most Common Project Size": "$50,000 to $199,999",
+          "Average Referral Rating": "5.0"
+        },
+        "locations": [
+          {
+            "Location Name": "Headquarters",
+            "Street Address": "16 Kyriakou Matsi",
+            "Locality": "Nicosia",
+            "Region": "",
+            "Country": "Cyprus",
+            "Postal Code": "4717",
+            "Telephone": "&#43;357 97 706 028"
+          }
+        ],
+        "legend": {
+          "Service Lines": [
+            {
+              "Service Line": "AI Development",
+              "Percentage": "55%"
+            },
+            {
+              "Service Line": "BI & Big Data Consulting & SI",
+              "Percentage": "35%"
+            },
+            {
+              "Service Line": "AI Consulting",
+              "Percentage": "5%"
+            },
+            {
+              "Service Line": "Custom Software Development",
+              "Percentage": "5%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "company_name": "SecureTech",
+      "information": {
+        "website": "https://www.getsecuretech.com/",
+        "details": [
+          "Bronze Verified",
+          "$5,000+",
+          "$150 - $199 / hr",
+          "2 - 9",
+          "Founded 2002",
+          "1 Language",
+          "3 Timezones"
+        ],
+        "social_media": [
+          "https://www.linkedin.com/company/getsecuretech",
+          "https://www.facebook.com/SecureTech-109845017251564/",
+          "https://www.twitter.com/getsecuretechtx",
+          "https://www.instagram.com/getsecuretech/"
+        ],
+        "metrics": {
+          "Average Review Rating": "5.0",
+          "Total Reviews": "3",
+          "Most Common Project Size": "$10,000 to $49,000",
+          "Average Referral Rating": "5.0"
+        },
+        "locations": [
+          {
+            "Location Name": "Headquarters",
+            "Street Address": "11220 W. Loop 1604 N. Bldg 1",
+            "Locality": "San Antonio",
+            "Region": "TX",
+            "Country": "United States",
+            "Postal Code": "78254",
+            "Telephone": "210-798-0889"
+          }
+        ],
+        "legend": {
+          "Service Lines": [
+            {
+              "Service Line": "IT Managed Services",
+              "Percentage": "70%"
+            },
+            {
+              "Service Line": "Cloud Consulting & SI",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "Cybersecurity",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "IT Strategy Consulting",
+              "Percentage": "10%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "company_name": "RSK Cyber Security",
+      "information": {
+        "website": "https://www.rsk-cyber-security.com/",
+        "details": [
+          "Bronze Verified",
+          "$1,000+",
+          "$25 - $49 / hr",
+          "10 - 49",
+          "Founded 2021",
+          "2 Languages",
+          "5 Timezones"
+        ],
+        "social_media": [
+          "https://www.linkedin.com/company/rskbsl/",
+          "https://twitter.com/rskcybersec"
+        ],
+        "metrics": {
+          "Average Review Rating": "5.0",
+          "Total Reviews": "3",
+          "Most Common Project Size": "Less than $10,000",
+          "Average Referral Rating": "5.0"
+        },
+        "locations": [
+          {
+            "Location Name": "Headquarters",
+            "Street Address": "Anerley Court, Half Moon Lane",
+            "Locality": "Hildenborough",
+            "Region": "",
+            "Country": "United Kingdom",
+            "Postal Code": "TN11 9HU",
+            "Telephone": "&#43;44(0) 1732 833111"
+          }
+        ],
+        "legend": {
+          "Service Lines": [
+            {
+              "Service Line": "Cybersecurity",
+              "Percentage": "55%"
+            },
+            {
+              "Service Line": "Application Testing",
+              "Percentage": "30%"
+            },
+            {
+              "Service Line": "Cloud Consulting & SI",
+              "Percentage": "15%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "company_name": "Precision IT Consulting",
+      "information": {
+        "website": "http://precisionitconsulting.com/",
+        "details": [
+          "Silver Verified",
+          "$1,000+",
+          "$150 - $199 / hr",
+          "2 - 9",
+          "Founded 2008",
+          "1 Language"
+        ],
+        "social_media": [
+          "https://www.linkedin.com/company/precision-it-consulting/mycompany/",
+          "https://www.facebook.com/precisionitconsulting/"
+        ],
+        "metrics": {
+          "Average Review Rating": "4.8",
+          "Total Reviews": "6",
+          "Most Common Project Size": "$50,000 to $199,999",
+          "Average Referral Rating": "5.0"
+        },
+        "locations": [
+          {
+            "Location Name": "Headquarters",
+            "Street Address": "1333 Willow Pass Rd, Suite 214, Concord CA 94520",
+            "Locality": "Concord",
+            "Region": "CA",
+            "Country": "United States",
+            "Postal Code": "94520",
+            "Telephone": "8778006710"
+          }
+        ],
+        "legend": {
+          "Service Lines": [
+            {
+              "Service Line": "IT Managed Services",
+              "Percentage": "70%"
+            },
+            {
+              "Service Line": "IT Strategy Consulting",
+              "Percentage": "20%"
+            },
+            {
+              "Service Line": "Cloud Consulting & SI",
+              "Percentage": "10%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "company_name": "Link Development",
+      "information": {
+        "website": "http://www.linkdevelopment.com/",
+        "details": [
+          "Bronze Verified",
+          "$25,000+",
+          "$25 - $49 / hr",
+          "250 - 999",
+          "Founded 1996"
+        ],
+        "social_media": [
+          "https://www.linkedin.com/in/ahmed-elquosey/",
+          "https://www.facebook.com/link.development/",
+          "https://twitter.com/linkdevelopment",
+          "https://www.instagram.com/linkdevelopment/?hl=en"
+        ],
+        "metrics": {
+          "Average Review Rating": "4.8",
+          "Total Reviews": "4",
+          "Most Common Project Size": "$1,000,000 to $9,999,999",
+          "Average Referral Rating": "5.0"
+        },
+        "locations": [
+          {
+            "Location Name": "Headquarters",
+            "Street Address": "7700 Irvine Center Drive, Suite 800",
+            "Locality": "Irvine",
+            "Region": "CA",
+            "Country": "United States",
+            "Postal Code": "92618",
+            "Telephone": "9495465747"
+          }
+        ],
+        "legend": {
+          "Service Lines": [
+            {
+              "Service Line": "IT Staff Augmentation",
+              "Percentage": "40%"
+            },
+            {
+              "Service Line": "Custom Software Development",
+              "Percentage": "30%"
+            },
+            {
+              "Service Line": "CRM Consulting and SI",
+              "Percentage": "20%"
+            },
+            {
+              "Service Line": "Cloud Consulting & SI",
+              "Percentage": "10%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "company_name": "DATAFOREST",
+      "information": {
+        "website": "http://dataforest.ai/",
+        "details": [
+          "Bronze Verified",
+          "$10,000+",
+          "$50 - $99 / hr",
+          "50 - 249",
+          "Founded 2018",
+          "1 Language",
+          "1 Timezone"
+        ],
+        "social_media": [
+          "https://www.linkedin.com/company/dataforest",
+          "https://www.facebook.com/dataforest/",
+          "https://twitter.com/dataforestai",
+          "https://www.instagram.com/dataforest_agency/"
+        ],
+        "metrics": {
+          "Average Review Rating": "4.9",
+          "Total Reviews": "19",
+          "Most Common Project Size": "$10,000 to $49,000",
+          "Average Referral Rating": "5.0"
+        },
+        "locations": [
+          {
+            "Location Name": "Headquarters",
+            "Street Address": "Solomenskaya, 15a",
+            "Locality": "Kyiv",
+            "Region": "",
+            "Country": "Ukraine",
+            "Postal Code": "02000",
+            "Telephone": "+16469050356"
+          }
+        ],
+        "legend": {
+          "Service Lines": [
+            {
+              "Service Line": "BI & Big Data Consulting & SI",
+              "Percentage": "50%"
+            },
+            {
+              "Service Line": "AI Development",
+              "Percentage": "40%"
+            },
+            {
+              "Service Line": "Custom Software Development",
+              "Percentage": "10%"
+            },
+            {
+              "Service Line": "AI Consulting",
+              "Percentage": "0%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "company_name": "FRSecure",
+      "information": {
+        "website": "https://frsecure.com/",
+        "details": [
+          "Gold Verified",
+          "$5,000+",
+          "Undisclosed",
+          "50 - 249",
+          "Founded 2008",
+          "1 Language",
+          "3 Timezones"
+        ],
+        "social_media": [
+          "https://www.linkedin.com/company/frsecure-llc",
+          "https://www.facebook.com/frsecure/",
+          "https://twitter.com/FRSecure",
+          "https://www.instagram.com/frsecure/"
+        ],
+        "metrics": {
+          "Average Review Rating": "4.9",
+          "Total Reviews": "23",
+          "Most Common Project Size": "$10,000 to $49,000",
+          "Average Referral Rating": "4.9"
+        },
+        "locations": [
+          {
+            "Location Name": "Headquarters",
+            "Street Address": "6550 York Ave S #500",
+            "Locality": "Edina",
+            "Region": "MN",
+            "Country": "United States",
+            "Postal Code": "55435",
+            "Telephone": "877-393-8546"
+          }
+        ],
+        "legend": {
+          "Service Lines": [
+            {
+              "Service Line": "Cybersecurity",
+              "Percentage": "90%"
+            },
+            {
+              "Service Line": "IT Managed Services",
+              "Percentage": "10%"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

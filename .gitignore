@@ -1,1 +1,5 @@
 venv
+.DS_Store
+**/*pyc
+parsing/parsing/__pycache__/settings.cpython-311.pyc
+__pycache__
