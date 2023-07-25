@@ -1,5 +1,8 @@
 import time
 import json
+import multiprocessing
+import concurrent.futures
+import pprint
 
 from functools import wraps
 from typing import List, Tuple, Dict
@@ -33,7 +36,7 @@ def remove_url_params(url):
     """
     The remove_url_params function takes a URL
     as an argument and returns the base URL.
-    
+
     :param url: Pass the url to be parsed
     :return: The base url of a given url
     """
@@ -45,7 +48,7 @@ def remove_url_params(url):
 def save_to_json(data, filename):
     """
     The save_to_json function saves data to a JSON file.
-    
+
     :param data: Pass in the data that will be saved to a json file
     :param filename: Specify the file to be written
     :return: Nothing
@@ -60,7 +63,7 @@ def parse_company_links(driver) -> List[str]:
     object as an argument and returns a list of strings.
     The function finds all the links to company pages on
     the current page, then appends them to a list.
-    
+
     :param driver: Get the current page
     :return: A list of links to the companies
     """
@@ -76,15 +79,14 @@ def parse_company_links(driver) -> List[str]:
 def webdriver_scrapy_links(service: Service, url: str) -> Tuple[
         int, int, List[str]]:
     """
-    The webdriver_scrapy_links function scrapes the links 
+    The webdriver_scrapy_links function scrapes the links
     to all companies on a given page of the
         directory. It returns a tuple containing:
-    
+
     :param service: Service: Pass the path to the chromedriver
     :param url: str: Specify the url of the website to be scraped
     :return: The number of pages, the number
     """
-    
     count_pages = 0
     count_company = 0
 
@@ -92,7 +94,7 @@ def webdriver_scrapy_links(service: Service, url: str) -> Tuple[
 
         driver.get(url)
 
-        wait = WebDriverWait(driver, 40)
+        wait = WebDriverWait(driver, 60)
 
         try:
             cookie_dialog = wait.until(
@@ -102,7 +104,10 @@ def webdriver_scrapy_links(service: Service, url: str) -> Tuple[
             accept_button = cookie_dialog.find_element(
                 By.ID, "CybotCookiebotDialogBodyButtonAccept"
                 )
-            accept_button.click()
+            try:
+                accept_button.click()
+            except ElementNotInteractableException:
+                pass
         except TimeoutException:
             pass
 
@@ -160,7 +165,7 @@ def read_links_with_json(filename: str) -> List[str]:
     """
     The read_links_with_json function reads a JSON file
     and returns a list of links.
-    
+
     :param filename: str: Specify the name of the file to read from
     :return: A generator object
     """
@@ -173,7 +178,7 @@ def read_links_with_json(filename: str) -> List[str]:
 def scrape_metrics(driver):
     """
     The scrape_metrics function scrapes the metrics block of a profile page.
-    
+
     :param driver: Pass the webdriver object to the function
     :return: A dictionary of metrics
     """
@@ -216,12 +221,12 @@ def scrape_metrics(driver):
     }
 
 
-def scrape_locations(driver) -> List[Dict[str]]:
+def scrape_locations(driver) -> List[Dict[str, str]]:
     """
     The scrape_locations function scrapes the locations of a company.
     It takes in a Selenium WebDriver object as an argument,
     and returns a list of dictionaries containing location data.
-    
+
     :param driver: Pass the webdriver object to the function
     :return: A list of dictionaries
     """
@@ -235,18 +240,18 @@ def scrape_locations(driver) -> List[Dict[str]]:
         location_name = location_name_element.text.strip()
 
         try:
-            address_element = WebDriverWait(location, 10).until(
+            address_element = WebDriverWait(location, 1).until(
                 EC.visibility_of_element_located((
                     By.CSS_SELECTOR, "address.detailed-address"))
             )
-        except TimeoutException:
+        except (TimeoutException, NoSuchElementException):
             # Handle the TimeoutException and continue to the next location
             continue
-
-        street_address = address_element.find_element(
-            By.CSS_SELECTOR, "span[itemprop='streetAddress']").text.strip()
-
-        # Use try-except to handle NoSuchElementException
+        try:
+            street_address = address_element.find_element(
+                By.CSS_SELECTOR, "span[itemprop='streetAddress']").text.strip()
+        except NoSuchElementException:
+            locality = ""
         try:
             locality = address_element.find_element(
                 By.CSS_SELECTOR,
@@ -296,7 +301,7 @@ def scrape_chart_legend(driver):
     """
     The scrape_chart_legend function scrapes the chart
     legend data from the page.
-    
+
     :param driver: Pass the webdriver object to the function
     :return: A dictionary with the following structure:
     """
@@ -322,8 +327,7 @@ def scrape_chart_legend(driver):
     return data
 
 
-def webdriver_scrapy_company(service: Service, options: Options, url: str) \
-        -> Tuple[Dict, int]:
+def webdriver_scrapy_company(url: str):
     """
     The webdriver_scrapy_company function scrapes the company's name, website,
     details, social media links and metrics from a given URL.
@@ -333,84 +337,108 @@ def webdriver_scrapy_company(service: Service, options: Options, url: str) \
     :param url: str: Pass the url of the company to be scraped
     :return: A dictionary with the scraped company information.
     """
+    try:
+        service = Service("chromedriver_mac/chromedriver")
+        with webdriver.Chrome(service=service) as driver:
 
-    with webdriver.Chrome(service=service) as driver:
+            driver.get(url)
 
-        driver.get(url)
+            wait = WebDriverWait(driver, 6)
 
-        wait = WebDriverWait(driver, 40)
-
-        try:
-            cookie_dialog = wait.until(
-                EC.presence_of_element_located((
-                    By.ID, "CybotCookiebotDialogBodyButtons"))
-                )
-            accept_button = cookie_dialog.find_element(
-                By.ID, "CybotCookiebotDialogBodyButtonAccept"
-                )
             try:
-                accept_button.click()
-            except ElementNotInteractableException:
+                cookie_dialog = wait.until(
+                    EC.presence_of_element_located((
+                        By.ID, "CybotCookiebotDialogBodyButtons"))
+                    )
+                accept_button = cookie_dialog.find_element(
+                    By.ID, "CybotCookiebotDialogBodyButtonAccept"
+                    )
+                try:
+                    accept_button.click()
+                except ElementNotInteractableException:
+                    pass
+            except TimeoutException:
                 pass
-        except TimeoutException:
-            pass
 
-        element_name_and_link = driver.find_element(
-            By.XPATH, "//a[@class='website-link__item']")
-        company_name = element_name_and_link.text.strip()
-        company_link = element_name_and_link.get_attribute("href")
-        company_website = remove_url_params(company_link)
-
-        details_list = []
-
-        details = driver.find_elements(
-            By.XPATH, "//ul[@class='profile-summary__details']\
-                /li[contains(@class, 'sg-text')]"
-        )
-        for detail in details:
             try:
-                title_element = detail.find_element(
-                    By.CLASS_NAME, "sg-text__title")
-                title = title_element.text.strip()
+                element_name_and_link = driver.find_element(By.XPATH, "//a[@class='website-link__item']")
+                company_name = element_name_and_link.text.strip()
+                company_link = element_name_and_link.get_attribute("href")
+                company_website = remove_url_params(company_link)
             except NoSuchElementException:
-                pass
-            else:
-                details_list.append(title)
+                company_name = None
+                company_website = None
 
-        social_media_block = driver.find_element(
-            By.CLASS_NAME, "profile-summary__social")
-        social_media_links = social_media_block.find_elements(
-            By.CLASS_NAME, "sg-social-media--link")
+            details_list = []
+            try:
+                details = driver.find_elements(
+                    By.XPATH, "//ul[@class='profile-summary__details']\
+                        /li[contains(@class, 'sg-text')]"
+                )
+                for detail in details:
+                    try:
+                        title_element = detail.find_element(
+                            By.CLASS_NAME, "sg-text__title")
+                        title = title_element.text.strip()
+                    except NoSuchElementException:
+                        pass
+                    else:
+                        details_list.append(title)
+            except Exception as err:
+                print(f">>>>> details in url: {url}\n\terrors: {err}")
 
-        social_media = []
+            social_media = []
+            try:
+                social_media_block = driver.find_element(
+                    By.CLASS_NAME, "profile-summary__social")
+                social_media_links = social_media_block.find_elements(
+                    By.CLASS_NAME, "sg-social-media--link")
 
-        for link in social_media_links:
-            url = link.get_attribute("href")
-            social_media.append(url)
+                for link in social_media_links:
+                    url = link.get_attribute("href")
+                    social_media.append(url)
+            except Exception as err:
+                print(f">>>>> social_media_block in url: {url}\n\terrors: {err}")
 
-        data_metrics = scrape_metrics(driver)
-        lovations = scrape_locations(driver)
-        legend = scrape_chart_legend(driver)
+            try:
+                data_metrics = scrape_metrics(driver)
+            except Exception as err:
+                print(f">>>>> data_metrics in url: {url}\n\terrors: {err}")
+            try:
+                locations = scrape_locations(driver)
+            except Exception as err:
+                print(f">>>>> locations in url: {url}\n\terrors: {err}")
+            try:
+                legend = scrape_chart_legend(driver) 
+            except Exception as err:
+                print(f">>>>> legend in url: {url}\n\terrors: {err}")
 
-        data = {
-            "company_name": company_name,
-            "information": {
-                "website": company_website,
-                "details": details_list,
-                "social_media": social_media,
-                "metrics": data_metrics,
-                "locations": lovations,
-                "legend": legend,
+            data = {
+                "company_name": company_name,
+                "information": {
+                    "website": company_website,
+                    "details": details_list,
+                    "social_media": social_media,
+                    "metrics": data_metrics,
+                    "locations": locations,
+                    "legend": legend,
+                }
             }
-        }
 
-        driver.quit()
+            driver.quit()
 
-    return data
+            if data["company_name"] == None:
+                data = ""
+
+        return data
+    except TimeoutException as te:
+        print(f">>>>> Timeout in url: {url}\n\tError: {te}")
+    except Exception as e:
+        print(f">>>>> Error in url: {url}\n\tError: {e}")
 
 
 @timer_decorator
-def scrapy_company(service: Service, options: Options, filename: str):
+def scrapy_company(filename: str):
     """
     The scrapy_company function scrapes the company information from
     a given link.
@@ -419,7 +447,7 @@ def scrapy_company(service: Service, options: Options, filename: str):
             options (Options): The webdriver options to use for scraping.
             filename (str): A string representing the file name of the json
             file containing links to scrape from.
-    
+
     :param service: Service: Start the webdriver
     :param options: Options: Set the options for the webdriver
     :param filename: str: Specify the filename of the file that contains
@@ -430,11 +458,21 @@ def scrapy_company(service: Service, options: Options, filename: str):
         "count_company": 0,
         "company": []}
 
+    num_cores = multiprocessing.cpu_count() - 1
     for data in read_links_with_json(filename):
-        for link in data:
-            data = webdriver_scrapy_company(service, options, link)
-            all_data["company"].append(data)
-            all_data["count_company"] += 1
+        with concurrent.futures.ProcessPoolExecutor(
+                max_workers=num_cores) as executor:
+            try:
+                results = list(executor.map(webdriver_scrapy_company, data))
+                if results == "":
+                    continue
+                all_data["company"].extend(results)
+                all_data["count_company"] += len(results)
+                pprint.pprint(results)
+            except Exception as err:
+                print(f">>>>> Error in processing : {err}")
+                continue
+        print(f">>> count_company: {all_data['count_company']}")
 
     return all_data
 
@@ -443,15 +481,16 @@ def scrapy_company(service: Service, options: Options, filename: str):
 def main():
     """
     The main function scrapes company links from the first page of the search
-    results and then scrapes data for each company. The data is saved to a json file.
+    results and then scrapes data for each company. The data is saved to a
+    json file.
 
     :return: None
     """
     url = "https://clutch.co/it-services"
-    pages = 50
+    pages = 200
     filename_links = "company_links.json"
     filename_company = "company_data.json"
-    service = Service("chromedriver_mac/chromedriver")
+
     chrome_options = Options()
     chrome_options.add_argument("--headless")
 
@@ -461,7 +500,7 @@ def main():
     print(f"Scraped all links. Total pages: {сount_pages}.\
             Total company links: {count_company_link}")
 
-    company_data = scrapy_company(service, chrome_options, filename_links)
+    company_data = scrapy_company(filename_links)
     save_to_json(company_data, filename_company)
 
 
